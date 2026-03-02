@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #cad3fa 0%, #d0b1ee 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ body {
 .profile-name {
     font-size: 28px;
     font-weight: 700;
-    color: #1976d2;
+    color: #ff9aa2; /* Coral pastel */
     margin-bottom: 8px;
     letter-spacing: -0.5px;
 }
@@ -80,7 +80,7 @@ body {
 .profile-lastname {
     font-size: 24px;
     font-weight: 500;
-    color: #424242;
+    color: #a6c1ee; /* Celeste pastel */
     margin-bottom: 16px;
 }
 
@@ -88,11 +88,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    
 }
 
 .profile-details p {
     font-size: 16px;
-    color: #666;
+    color: #888; /* Gris suave */
     font-weight: 400;
 }
 
@@ -103,7 +104,7 @@ body {
     gap: 12px;
     font-size: 20px;
     font-weight: 600;
-    color: #1976d2;
+    color: #eb9fd5;
     margin-bottom: 20px;
     padding-bottom: 8px;
     border-bottom: 2px solid #e3f2fd;
@@ -111,7 +112,7 @@ body {
 
 .section-title .material-icons {
     font-size: 24px;
-    color: #1976d2;
+    color: #cbe0f4;
 }
 
 /* ===== SECCIÓN DE HABILIDADES ===== */
@@ -127,24 +128,25 @@ body {
 }
 
 .skill-item {
-    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    font-weight: 400;
     padding: 16px;
     border-radius: 12px;
     text-align: center;
     transition: all 0.3s ease;
-    border: 1px solid #e3f2fd;
+    background: linear-gradient(135deg, #ffe3e3 0%, #fbc2eb 100%); /* Rosa pastel */
+    border: 1px solid #ffe3e3;
 }
 
 .skill-item:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(25, 118, 210, 0.2);
-    background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+    box-shadow: 0 8px 16px rgba(199, 222, 245, 0.2);
+    background: linear-gradient(135deg, #cfe7fa 0%, #d0e2f0 100%);
 }
 
 .skill-name {
     font-size: 16px;
     font-weight: 500;
-    color: #1976d2;
+    color: #ff9aa2; /* Coral pastel */
 }
 
 /* ===== SECCIONES DE FAVORITOS ===== */
@@ -160,25 +162,25 @@ body {
 }
 
 .favorite-item {
-    background: #f5f5f5;
     padding: 12px 16px;
+    background: #ffe3e3; /* Rosa pastel */
+    border-left: 4px solid #ff9aa2; /* Coral pastel */
+    color: #555; /* Gris suave */
     border-radius: 8px;
     font-size: 16px;
-    color: #424242;
     font-weight: 400;
     transition: all 0.3s ease;
-    border-left: 4px solid #1976d2;
 }
 
 .favorite-item:hover {
-    background: #e3f2fd;
+    background: #fbc2eb; /* Rosa pastel más claro */
     transform: translateX(4px);
 }
 
 /* ===== FOOTER ===== */
 .footer {
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(85, 85, 85, 0.8); /* Gris suave */
     font-size: 14px;
     font-weight: 300;
 }
